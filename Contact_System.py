@@ -3,7 +3,7 @@ contact = "contact_data.csv"
 contact_field = ['id','name','email','gender','dob','address','mobile']
 
 def view():
-    print("----Contacts Record----")
+    print("----Contacts Record--")
     with open('contact_data.csv', mode="r") as csv_file:
       reader = csv.reader(csv_file) 
 
